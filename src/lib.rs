@@ -9,7 +9,7 @@ use proc_macro::{TokenStream, TokenTree};
 
 /// This attribute will enable a function to access the caller's source location.
 #[proc_macro_attribute]
-pub fn trace_caller(_attr: TokenStream, item: TokenStream) -> TokenStream {
+pub fn trace(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let mut prefix: TokenStream = "
     use backtrace::{Backtrace, BacktraceFrame};
     let (trace, curr_file, curr_line) = (Backtrace::new(), file!(), line!());

@@ -19,21 +19,23 @@ It will help to trace the location of the caller of a function.
 ## Example
 
 ```rust
-#[trace_caller]
+extern crate trace_caller;
+
+use trace_caller::trace;
+
+#[trace]
 fn add(x: u32, y: u32) -> u32 {
     x + y
 }
 
 fn main() {
     let result = add(3, 4);
-    println!("Result: {}",result);
+    println!("Result: {}", result);
 }
-
 ```
 
 ## Result
 ```text
 Called from "src/main.rs" at line 11
 Result: 7
-
 ```

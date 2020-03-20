@@ -1,0 +1,11 @@
+[package]
+name = "trace_caller_examples"
+version = "0.0.0"
+authors = ["Ayush Kumar Mishra <ayushmishra2005@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+trace_caller = { path = "../.." }
+backtrace = "0.3.45"
+
