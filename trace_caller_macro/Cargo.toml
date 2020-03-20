@@ -1,9 +1,12 @@
 [package]
-name = "trace_caller_examples"
-version = "0.0.0"
+name = "trace_caller_macro"
+version = "0.1.0"
 authors = ["Ayush Kumar Mishra <ayushmishra2005@gmail.com>"]
 edition = "2018"
 license = "MIT"
 
 [dependencies]
-trace_caller = { version = "0.1.2", path = "../../../trace_caller" }
+backtrace = "0.3.45"
+
+[lib]
+proc-macro = true

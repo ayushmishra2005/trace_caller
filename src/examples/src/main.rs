@@ -1,6 +1,5 @@
-extern crate trace_caller;
 
-use trace_caller::trace;
+use trace_caller::*;
 
 #[trace]
 fn add(x: u32, y: u32) -> u32 {
