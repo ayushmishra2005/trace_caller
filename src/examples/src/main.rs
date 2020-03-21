@@ -1,5 +1,4 @@
-
-use trace_caller::*;
+use trace_caller::trace;
 
 #[trace]
 fn add(x: u32, y: u32) -> u32 {

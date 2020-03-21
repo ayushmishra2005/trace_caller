@@ -6,4 +6,4 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
-trace_caller = { version = "0.1.2", path = "../../../trace_caller" }
+trace_caller = { version = "0.2.0", path = "../../../trace_caller" }

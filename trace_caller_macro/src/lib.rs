@@ -11,7 +11,7 @@ use proc_macro::{TokenStream, TokenTree};
 #[proc_macro_attribute]
 pub fn trace(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let mut prefix: TokenStream = "
-    use backtrace::{Backtrace, BacktraceFrame};
+    use trace_caller::backtrace::{Backtrace, BacktraceFrame};
     let (trace, curr_file, curr_line) = (Backtrace::new(), file!(), line!());
     let frames = trace.frames();
     let previous_symbol = frames
