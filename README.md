@@ -4,7 +4,7 @@
     <img alt="Build Status" src="https://travis-ci.com/ayushmishra2005/trace_caller.svg?branch=master">
   </a>
   <a href="https://crates.io/crates/trace_caller">
-      <img alt="Latest version" src="https://img.shields.io/badge/crates.io-v0.1.1-orange.svg?longCache=true">
+      <img alt="Latest version" src="https://img.shields.io/badge/crates.io-v0.2.0-orange.svg?longCache=true">
     </a>
 
   <img alt="MIT licensed" src="https://img.shields.io/badge/license-MIT-blue.svg">
