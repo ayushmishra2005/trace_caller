@@ -19,8 +19,6 @@ It will help to trace the location of the caller of a function.
 ## Example
 
 ```rust
-extern crate trace_caller;
-
 use trace_caller::trace;
 
 #[trace]

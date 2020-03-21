@@ -1,0 +1,9 @@
+[package]
+name = "trace_caller_macro"
+version = "0.1.0"
+authors = ["Ayush Kumar Mishra <ayushmishra2005@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+proc-macro = true

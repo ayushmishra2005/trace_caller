@@ -1,6 +1,6 @@
 [package]
 name = "trace_caller"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Ayush Kumar Mishra <ayushmishra2005@gmail.com>"]
 edition = "2018"
 
@@ -12,7 +12,5 @@ categories = ["Command-line"]
 license = "MIT"
 
 [dependencies]
+trace_caller_macro = { version = "0.1.0", path = "./trace_caller_macro" }
 backtrace = "0.3.45"
-
-[lib]
-proc-macro = true

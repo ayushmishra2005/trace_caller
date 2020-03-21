@@ -1,5 +1,3 @@
-extern crate trace_caller;
-
 use trace_caller::trace;
 
 #[trace]
